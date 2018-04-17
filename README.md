@@ -17,7 +17,7 @@ npm run dev
 
 
 # 我的笔记
-## 2.1 2.2
+## 2.1 2.2 2.3
 ### 1 如果项目是目录结构，说明webpack配置里面的
 ```
  plugins: [
@@ -42,10 +42,26 @@ npm run dev
 
 ### 4 cssModules可以改变css类名
 
-## 2.3 eslint
+## 2.4 eslint
 ### 1
 `
 npm i eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node -D
 `
 
 `  npm i eslint-plugin-html -D    `
+`npm i eslint-loader balel-eslint -D`
+
+- `npm run eslint-fix`之后会自动修复
+- `npm run eslint`就不会报错了
+- 安装了一大堆eslint相关的 少一个都不行
+- 应该是`.eslintrc`文件之后默认会检测 否则不通过
+- 上一句不对
+```
+{
+                test: /\.(vue|js|jsx)$/,
+                loader: 'eslint-loader',
+                exclude: /node_modules/,
+                enforce: 'pre'
+            },
+```
+用这个配置
