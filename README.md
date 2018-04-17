@@ -38,3 +38,5 @@ npm run dev
 - 增加`vue-loader.config.js`配置
 - `extractCSS`是单独打包出来css,将每个vue文件中的模块的css也一起提取出来，
 - 还可以增加
+
+## 4 cssModules可以改变css类名
