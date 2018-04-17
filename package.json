@@ -11,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "2.5.13",
-    "vue-style-loader": "^4.1.0"
+    "vue": "2.5.13"
   },
   "devDependencies": {
     "autoprefixer": "7.2.3",
@@ -33,6 +32,7 @@
     "stylus-loader": "3.0.1",
     "url-loader": "0.6.2",
     "vue-loader": "13.6.0",
+    "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "2.5.13",
     "webpack": "3.10.0",
     "webpack-dev-server": "2.9.7",
