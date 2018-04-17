@@ -32,3 +32,9 @@ npm run dev
 而在`webpack.config.client.js`这文件里面是需要用concat链接起来的
 
 ## 2 之前一直报的错，（jsx不能变异）可能是因为.babelrc这个文件没放拷贝进来，因为是隐藏文件
+
+## 3 vue-loader需要安装 `vue-style-loader`
+- `style-loader`换成`vue-style-loader`就可以热加载css了
+- 增加`vue-loader.config.js`配置
+- `extractCSS`是单独打包出来css,将每个vue文件中的模块的css也一起提取出来，
+- 还可以增加
