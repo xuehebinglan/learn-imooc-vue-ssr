@@ -65,3 +65,20 @@ npm i eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise
             },
 ```
 用这个配置
+
+## 3 vue
+### 1 实例 instance
+> 到 49：15结束
+
+### 2
+> 49:16开始
+
+### 3 生命周期
+- 服务端渲染只有beforecreated 和 created执行
+- `beforemouted`是原始的div节点
+- `mounted`的el才是渲染出来的
+- 而且el有了之后，是相当于执行了render function的
+- 而且执行实在mounted之前，因此就是用了render function才渲染出来页面的
+-
+> 1:08:00结束
+
