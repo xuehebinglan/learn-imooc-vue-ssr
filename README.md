@@ -82,3 +82,41 @@ npm i eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise
 -
 > 1:08:00结束
 
+### 4 computed watch
+- computed在页面渲染的时候，不会执行，而methods里面会执行
+
+- watch 一般来说 obj.a改变 不会触发watch的obj，如果增加deep：true就能改
+
+- 不要在computed 和 watch不要改某个属性，否则会循环
+
+### 5 vue原生指令
+> 1:44:57
+
+- v-for 中建议用item 作为key `:key='item'`
+- v-model一般只用在 input上面
+- 组件可以用某种方法 放上去
+
+### 6 组件
+
+#### 1 define.js
+> 2:14:40
+> 2:27:52结束
+
+- props 在组件标签上面用  prop-one这种方式比较好
+- 不可以修改props
+#### 2 extend.js
+
+#### 3 vue 组件 双向绑定
+>开始   2：52：57
+>结束   3:00:18
+
+#### 4 高级属性
+- slot
+
+- provide inject 太高级了 学不进去了
+- 跨级组件沟通
+
+> 3:23:35结束
+
+#### 5 render方法
+- render方法是替换了 template

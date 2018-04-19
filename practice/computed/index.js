@@ -16,7 +16,7 @@ new Vue({
     </div>
   `,
   data: {
-    firstName: 'Jokcy',
+    firstName: 'Jokcy ',
     lastName: 'Lou',
     number: 0,
     fullName: '',
