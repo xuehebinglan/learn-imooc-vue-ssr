@@ -143,3 +143,24 @@ historyApiFallback: {
 不在全局最上面写，而是在
 
 ### 4-5 Vuex
+- store.js
+- 需要变成export defalt一个function 这样每次都不同
+
+### 4-6 vuex state action
+
+- 在`app.vue`里面的`computed`里面增加`...mapState`和`...mapGetters`
+- 先import mapState和 mapGetters
+```
+import {
+    mapState,
+    mapGetters
+  } from 'vuex'
+```
+- 这都是默认的函数和用法
+
+### 4-7 mutation 和 action
+
+- mutation 只能接受2个参数，多个参数必须包装一下成 对象{}
+- mutation专门修改state的
+
+### 4-8 vuex模块
